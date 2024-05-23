@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../teste"
+		},
+		{
+			"path": "../projetinho toggers"
+		},
+		{
+			"path": "js"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "site-"
+	}
+}
