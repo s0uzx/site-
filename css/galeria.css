@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@1&display=swap');
+.galeria {
+    padding: 80px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.galeria img,.galeria2 img {
+    background-color: #8B1A1A;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.galeria img {
+    padding: 15px;
+    width: 100%;
+    border: 15;
+}
+
+.galeria2 img {
+    padding: 7px;
+    width: 10%;
+}
+
+#galeria-modal.modal-img {
+    width: 100%;
+}
+
+.nos {
+    max-width: 50%;
+    max-height: 25%;
+}
+
+.img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.img1:hover {
+    filter: invert();
+    transition: 0.3;
+}
+
+.fontGaleria {
+    font-family: 'Tiro Bangla', serif;
+}
+
+.font2 {
+    font-family: 'Oswald', sans-serif;
+}

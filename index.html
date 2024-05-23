@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+     crossorigin="anonymous">
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="./css/meu_Estilo.css">
+    <link rel="stylesheet" href="./css/galeria.css">
+    <link rel="icon" href="img/mack.png ">
+
+    <title>Inicio</title>
+</head>
+
+<body style="background-color: #000000">
+    <!-- #363636 -->
+    <!-- cabeçalho -->
+    <header class="p-3 bg-black text-white d-flex">
+        <img src="./img/mack.png" alt="Logo" srcset="" width="7%">
+        
+    </header>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-Fundo">
+
+        <div class="container-fluid">
+            <!-- Botão hamburguer -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu1" aria-controls="menu1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapsed navbar-collapse" id="menu1">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fontGaleria">
+                    <li class="nav-item img1">
+                        <a class="nav-link active " href="index.html">Inicio</a>
+                        <li class="nav-item img1">
+                            <a class="nav-link active" href="forms.html">Cadastro</a>
+                        </li>
+                        <li class="nav-item img1">
+                            <a class="nav-link active" href="sobre.html">Sobre</a>
+                        </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <center>
+        <h3 class="legenda text-danger fontGaleria">Nosso Carro</h3>
+    </center>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/carrao azul.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/maczera.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/marelo.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/pretao.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/roxao.png" class="d-block w-100 bg-Fundo1" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/tomatao.png" class="d-block w-100 " alt="...">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Criando Cards -->
+    <div class="container mt-5">
+        <div class="row">
+             <!-- Criando coluna da esquerda -->
+             <br>
+            <div class="col-sm-8">
+
+                
+                
+            </div>
+
+        </div>
+        <br><br>
+   
+            <div class="col">
+                <div class="imagens">
+                    <img src="./img/senas.png" alt="galeria" class="gallery-item img" width="125px" height="125px" >
+                    <h3 class="text-white">Trabalho realizado em parceria com o apoio da Escola SENAI Valinhos</h3>
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                            <a href="https://sp.senai.br/unidade/valinhos/" class="nav-link text-white bg-Fundo" id="n3" target="_blank" onmouseover="marcar(this.id)" onmouseout="marcar(this.id)">Acessar a página da instituição</a>
+                        </li>
+                    </ul>
+                </div></div></div></div>
+
+    </div>
+    <footer class="mt-5 p-4 bg-dark text-white text-center">
+        <p>Entre em contato pelas redes sociais&nbsp;&nbsp;
+            <a href="https://www.instagram.com/relampagosmarquinhos_/"><img src="./img/instalogo.png" alt="" width="50px" height="40px" class="img1"></a>
+
+            
+
+        </p>
+        <p>© Relâmpagos Marquinhos <br>
+
+        </p>
+    </footer>
+
+</body>
+
+<!-- JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+crossorigin="anonymous"></script>
+
+<!-- Meu script -->
+<script>
+    function marcar(obj) {
+        document.getElementById(obj).classList.toggle('active')
+    }
+</script>
+
+</html>
